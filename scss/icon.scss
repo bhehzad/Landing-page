@@ -1,0 +1,152 @@
+.workflow{
+    margin-top: 3rem;
+    text-align: center;
+
+    @media screen and (max-width:768px){
+        margin-top: 8rem;
+    }
+
+    .upper{
+        text-align: center;
+
+        h1{
+            font-weight: bold;
+            font-size: 2.3rem;
+            color: hsl(210, 10%, 33%);
+
+            @media screen and (max-width:768px){
+                font-size: 2.7rem;
+                padding:0 3rem;
+            }
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 1.2rem;
+            padding: 1rem 15vw;
+            color: $Grayish-Blue;
+
+            @media screen and (max-width:768px){
+                font-size: 1.8rem;
+            }
+            
+        }
+    }
+
+    .lower{
+        display: flex;
+        width: 85%;
+        margin: 3.5rem auto;
+
+        @media screen and (max-width:768px){
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            margin: 5rem auto;
+        }
+
+        .preview{
+            width: 33.3%;
+            margin: auto;
+
+            @media screen and (max-width:768px){
+                width: 100%;
+                margin-bottom: 5rem;
+            }
+
+            h3{
+                font-size: 1.5rem;
+                padding-top: 2rem;
+                color:hsl(210, 10%, 33%);
+
+                @media screen and (max-width:768px){
+                    font-size: 2.5rem;
+                }
+            }
+
+            p{
+                color:$Grayish-Blue;
+                padding: 1rem 1.5vw;
+
+                @media screen and (max-width:768px){
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
+    .brands{
+        width: 83%;
+        display: flex;
+        flex-direction: row;
+        margin: 5rem auto;
+        justify-content: space-between;
+
+        @media screen and (max-width:768px){
+            width: 95%;
+            flex-direction: column;
+        }
+
+        .company{
+            width: 20%;
+
+            @media screen and (max-width:768px){
+                width: 100%;
+                margin-bottom: 6rem;
+            }
+
+            img{
+                width: 7rem;
+                @media screen and (max-width:768px){
+                    width: 40%;
+                }
+            }
+        }
+        .microsoft{
+            img{
+                margin-top: 0.5rem;
+                width: 8rem;
+
+                @media screen and (max-width:768px){
+                    width: 40%;
+                }
+            }
+        }
+        .vector{
+            img{
+                margin-top: 0.5rem;
+                @media screen and (max-width:768px){
+                    width: 40%;
+                }
+            }
+        }
+
+    }
+}
+
+.ios-mac{
+    text-align: center;
+
+    h1{
+        font-size: 2.3rem;
+        color: $Dark-Blue;
+        padding-top: 3rem;
+
+        @media screen and (max-width:768px){
+            font-size: 2.5rem;
+            padding: 0 5rem;
+        }
+    }
+    p{
+        font-size: 1.1rem;
+        padding: 1rem 24vw;
+        line-height: 1.5rem;
+        color: #9fabb2;
+
+        @media screen and (max-width:768px){
+            font-size: 1.9rem;
+            padding: 1.5rem 6vw;
+            line-height: 2.3rem;
+        }
+    }
+}
